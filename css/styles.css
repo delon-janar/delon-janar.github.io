@@ -502,7 +502,7 @@ progress {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
-  color: 
+  color: black !important;
 }
 
 .display-1 {
@@ -7841,6 +7841,10 @@ fieldset:disabled .btn {
   margin-bottom: 3rem !important;
 }
 
+.mb-5.hover {
+  background-color: #000;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -11762,7 +11766,7 @@ html {
   height: 70vw;
   max-height: 60rem;
   position: absolute;
-  
+
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -11903,4 +11907,61 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+}
+
+#footer {
+  background: #f7f8f9;
+  color: #45505b;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #62DEA9;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+  background: #62DEA9;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
 }
